@@ -13,6 +13,11 @@
 		E0DBAEBB2134250F00F1C234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DBAEB92134250F00F1C234 /* Main.storyboard */; };
 		E0DBAEBD2134251100F1C234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DBAEBC2134251100F1C234 /* Assets.xcassets */; };
 		E0DBAEC02134251100F1C234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DBAEBE2134251100F1C234 /* LaunchScreen.storyboard */; };
+		E0F0E336213CFF8F00142574 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F0E331213CFF8D00142574 /* 04.png */; };
+		E0F0E337213CFF8F00142574 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F0E332213CFF8D00142574 /* 02.png */; };
+		E0F0E338213CFF8F00142574 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F0E333213CFF8E00142574 /* 05.png */; };
+		E0F0E339213CFF8F00142574 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F0E334213CFF8E00142574 /* 03.png */; };
+		E0F0E33A213CFF8F00142574 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F0E335213CFF8F00142574 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E0DBAEBC2134251100F1C234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0DBAEBF2134251100F1C234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0DBAEC12134251100F1C234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F0E331213CFF8D00142574 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		E0F0E332213CFF8D00142574 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		E0F0E333213CFF8E00142574 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		E0F0E334213CFF8E00142574 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		E0F0E335213CFF8F00142574 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		E0DBAEB22134250F00F1C234 /* ARDice */ = {
 			isa = PBXGroup;
 			children = (
+				E0F0E330213CFF7E00142574 /* Pictures */,
 				E0DBAEB32134250F00F1C234 /* AppDelegate.swift */,
 				E0DBAEB72134250F00F1C234 /* ViewController.swift */,
 				E0DBAEB92134250F00F1C234 /* Main.storyboard */,
@@ -65,6 +76,18 @@
 				E0DBAEC12134251100F1C234 /* Info.plist */,
 			);
 			path = ARDice;
+			sourceTree = "<group>";
+		};
+		E0F0E330213CFF7E00142574 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				E0F0E335213CFF8F00142574 /* 01.png */,
+				E0F0E332213CFF8D00142574 /* 02.png */,
+				E0F0E334213CFF8E00142574 /* 03.png */,
+				E0F0E331213CFF8D00142574 /* 04.png */,
+				E0F0E333213CFF8E00142574 /* 05.png */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,10 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F0E33A213CFF8F00142574 /* 01.png in Resources */,
+				E0F0E336213CFF8F00142574 /* 04.png in Resources */,
+				E0F0E338213CFF8F00142574 /* 05.png in Resources */,
 				E0DBAEB62134250F00F1C234 /* art.scnassets in Resources */,
 				E0DBAEC02134251100F1C234 /* LaunchScreen.storyboard in Resources */,
+				E0F0E339213CFF8F00142574 /* 03.png in Resources */,
 				E0DBAEBD2134251100F1C234 /* Assets.xcassets in Resources */,
 				E0DBAEBB2134250F00F1C234 /* Main.storyboard in Resources */,
+				E0F0E337213CFF8F00142574 /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
